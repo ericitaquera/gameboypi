@@ -48,11 +48,11 @@ audio_pwm_mode=0
 
 disable_audio_dither=1
 
-# Disable the ACT LED on the Pi Zero.
+#Disable the ACT LED on the Pi Zero.
 dtparam=act_led_trigger=none
 dtparam=act_led_activelow=on
 
-# Disable Bluetooth
+#Disable Bluetooth
 dtoverlay=pi3-disable-bt
 
 ++++++++++++++++++++++++++++
@@ -64,8 +64,6 @@ dtoverlay=pi3-disable-bt
 country=BR
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
-
-# RETROPIE CONFIG START
 network={
     ssid="<rede>"
     psk="<senha>"
