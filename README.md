@@ -90,8 +90,7 @@ sudo rpi-source
 
 -instalar mk_arcade_joystick_rpi
 
-# kernel 4.14.98+
-# 
+#kernel 4.14.98+
 
 cd /usr/src/
 
