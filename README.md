@@ -73,13 +73,13 @@ network={
 
 sudo apt-get update -y
 
-sudo apt-get install bc vim mlocate wiringpi libssl-dev libncurses5-dev -y && sudo updatedb
+sudo apt-get install bc vim mlocate wiringpi libssl-dev libncurses5-dev dkms cpp-4.7 gcc-4.7 git joystick -y && sudo updatedb
 
 sudo apt-get upgrade -y
 
 sudo reboot
 
-sudo rpi-update a08ece3d48c3c40bf1b501772af9933249c11c5b
+sudo rpi-update a08ece3d48c3c40bf1b501772af9933249c11c5b <br>
 -- https://github.com/Hexxeh/rpi-firmware/commits/master
 
 - install rpi-source
