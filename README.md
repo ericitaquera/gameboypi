@@ -65,8 +65,8 @@ country=BR
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 network={
-    ssid="<rede>"
-    psk="<senha>"
+    ssid="rede"
+    psk="senha"
 }
 
 -logar 
