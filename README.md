@@ -55,9 +55,9 @@ dtparam=act_led_activelow=on
 #Disable Bluetooth
 dtoverlay=pi3-disable-bt
 
+++++++++++++++++++++++++++++
 
-
--criar um arquivo "ssh" no raiz do SDcard
+-criar um arquivo "ssh" no raiz do SDcard (criar um arquivo vazio)
 
 -criar um arquivo wpa_supplicant.conf no raiz do sdcard
 
@@ -67,8 +67,8 @@ update_config=1
 
 # RETROPIE CONFIG START
 network={
-    ssid="nhanha24"
-    psk="pitokopitoki"
+    ssid="<rede>"
+    psk="<senha>"
 }
 
 -logar 
