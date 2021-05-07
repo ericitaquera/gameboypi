@@ -52,7 +52,7 @@ disable_audio_dither=1
 dtparam=act_led_trigger=none
 dtparam=act_led_activelow=on
 
-#Disable Bluetooth
+# Disable Bluetooth
 dtoverlay=pi3-disable-bt
 
 ++++++++++++++++++++++++++++
